@@ -1,0 +1,13 @@
+lzc-sdk-version: "0.1"
+name: Unlock Music
+package: czyt.app.um
+version: 1.10.8
+description: 在浏览器中解锁加密的音乐文件
+homepage: https://git.unlock-music.dev/um/web
+author: um
+application:
+  subdomain: um
+  routes:
+    - /=file:///lzcapp/pkg/content
+  public_path:
+    - /
